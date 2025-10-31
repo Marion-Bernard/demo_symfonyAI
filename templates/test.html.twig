@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}WTF App{% endblock %}
+
+{% block body %}
+    <h1>Formulaire simple</h1>
+    <div class="form-container">
+        {{ form_start(form) }}
+            {{ form_row(form.question) }}
+            {{ form_row(form.save) }}
+        {{ form_end(form) }}
+    </div>
+{% endblock %}
