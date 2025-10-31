@@ -50,6 +50,9 @@
             "./bin/phpunit"
         ]
     },
+    "symfony/ai-bundle": {
+        "version": "dev-main"
+    },
     "symfony/asset-mapper": {
         "version": "7.3",
         "recipe": {
